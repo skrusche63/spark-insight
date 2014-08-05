@@ -2,11 +2,11 @@
 
 ## Real-time Insights with Apache Spark
 
-### Association Rule Mining
+### Association Rule (AR) Mining
 
-Scala and Apache Spark based implementation of most recent Top-K Association Rule Algorithms as proposed by [Philippe-Fournier Viger](http://www.philippe-fournier-viger.com/).  
+Scala and Apache Spark based implementation of most recent Top-K Association Rule Algorithms as proposed by [Philippe-Fournier Viger](http://www.philippe-fournier-viger.com/). Top-K Association Rule Mining overcomes one of the major problems in traditional AR approaches, i.e. tuning the *minimum support* parameter.
 
-Read [more](http://skrusche63.github.io/spark-arules)
+Top-K Association Rule Mining therefore is an appropriate candidate for applying this technique to real-time data streams. Read [more](http://skrusche63.github.io/spark-arules).
 
 ### Context-Aware Recommendations
 
