@@ -4,19 +4,19 @@
 
 ### Association Rule (AR) Mining
 
-Scala and Apache Spark based implementation of most recent Top-K Association Rule Algorithms as proposed by [Philippe-Fournier Viger](http://www.philippe-fournier-viger.com/). Top-K Association Rule Mining overcomes one of the major problems in traditional AR approaches, i.e. tuning the *minimum support* parameter.
+Scala and Apache Spark based implementation of most recent Top-K Association Rule Algorithms as proposed by [Philippe-Fournier Viger](http://www.philippe-fournier-viger.com/). Top-K Association Rule Mining overcomes one of the major problems in traditional Association Rule approaches, i.e. tuning the *minimum support* parameter.
 
 Top-K Association Rule Mining therefore is an appropriate candidate for applying this technique to real-time data streams. Read [more](http://skrusche63.github.io/spark-arules).
 
-### Context-Aware Recommendations
+### Context-Aware Recommendations (CARs)
 
 Read [here](http://skrusche63.github.io/spark-fm)
 
-### Frequent Sequence Mining
+### Frequent Sequence Mining (FSM)
 
 Read [here](http://skrusche63.github.io/spark-fsm)
 
-### Natural Language Processing
+### Natural Language Processing (NLP)
 
 Read [here](http://skrusche63.github.io/akka-nlp)
 
