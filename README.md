@@ -8,6 +8,12 @@ Read [here](https://github.com/skrusche63/spark-insight)
 
 ### Context-Aware Recommendations
 
+Read [here](https://github.com/skrusche63/spark-fm)
+
 ### Frequent Sequence Mining
 
+Read [here](https://github.com/skrusche63/spark-fsm)
+
 ### Natural Language Processing
+
+Read [here](https://github.com/skrusche63/akka-nlp)
