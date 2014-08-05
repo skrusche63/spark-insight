@@ -4,21 +4,23 @@
 
 ### Association Rule Mining
 
-Read [here](https://github.com/skrusche63/spark-insight)
+Scala and Apache Spark based implementation of most recent Top-K Association Rule Algorithms as proposed by [Philippe-Fournier Viger](http://www.philippe-fournier-viger.com/).  
+
+Read [more](http://skrusche63.github.io/spark-arules)
 
 ### Context-Aware Recommendations
 
-Read [here](https://github.com/skrusche63/spark-fm)
+Read [here](http://skrusche63.github.io/spark-fm)
 
 ### Frequent Sequence Mining
 
-Read [here](https://github.com/skrusche63/spark-fsm)
+Read [here](http://skrusche63.github.io/spark-fsm)
 
 ### Natural Language Processing
 
-Read [here](https://github.com/skrusche63/akka-nlp)
+Read [here](http://skrusche63.github.io/akka-nlp)
 
 ## Elasticsearch Insights
 
-Read [here](https://github.com/skrusche63/spark-elastic)
+Read [here](http://skrusche63.github.io/spark-elastic)
 
