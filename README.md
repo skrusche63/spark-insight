@@ -17,3 +17,8 @@ Read [here](https://github.com/skrusche63/spark-fsm)
 ### Natural Language Processing
 
 Read [here](https://github.com/skrusche63/akka-nlp)
+
+## Elasticsearch Insights
+
+Read [here](https://github.com/skrusche63/spark-elastic)
+
