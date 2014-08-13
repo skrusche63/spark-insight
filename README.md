@@ -2,6 +2,10 @@
 
 ## Real-time Insights with Apache Spark
 
+### Customer Loyalty 
+
+The customer's engagement with a business is reflected by a wide range of events, such as e-commerce orders (or transactions), service calls, social media comments and more. All these events are indicate of the customer's loyalty to a certain business.
+
 ### Association Rule (AR) Mining
 
 Scala and Apache Spark based implementation of most recent Top-K Association Rule Algorithms as proposed by [Philippe-Fournier Viger](http://www.philippe-fournier-viger.com/). Top-K Association Rule Mining overcomes one of the major problems in traditional Association Rule approaches, i.e. tuning the *minimum support* parameter.
