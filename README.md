@@ -6,13 +6,16 @@
 
 The customer's engagement with a business is reflected by a wide range of events, such as e-commerce orders (or transactions), service calls, social media comments and more. All these events are indicative of the customer's loyalty to a certain business.
 
-**Loyalty** is usually defined as the strength of the relationship between a customer and a certain business. A higher degree of loyalty results in more purchase orders at a higher frequency.
+Loyalty is usually defined as the strength of the relationship between a customer and a certain business. A higher degree of loyalty results in more purchase orders at a higher frequency.
 
 Customer loyalty is an important parameter for almost any kind of business, and can e.g. be used to measure the effectiveness of marketing campaigns. Following a campaign, the loyalty curve can be analzed for a certain period of time to see if there is any significant impact on customers loyalty.
 
 Loyalty, however, can not be directly observer and measured. It is an internal customer state, that must be inferred adn predicted from customer engagement events.
 
 > Customer Loyalty is a highly valuable business insight derived from customer engagement data using **Predictive Analytics**.
+
+We suggest to predict a sequence of (hidden) customer loyality states from a sequence of observed customer engagement data by using a [Hidden Markov Model](http://en.wikipedia.org/wiki/Hidden_Markov_model). Identifying customers with a downward loyalty curve with such analysis can directly trigger proactive actions to resurrect the relationships of these customers.
+
 
 ### Association Rule (AR) Mining
 
@@ -27,6 +30,10 @@ Read [here](http://skrusche63.github.io/spark-fm)
 ### Frequent Sequence Mining (FSM)
 
 Read [here](http://skrusche63.github.io/spark-fsm)
+
+### Hidden Markov Model (HMM)
+
+Read [here](http://skrusche63.github.io/scala-hmm)
 
 ### Natural Language Processing (NLP)
 
