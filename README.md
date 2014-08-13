@@ -6,7 +6,11 @@
 
 The customer's engagement with a business is reflected by a wide range of events, such as e-commerce orders (or transactions), service calls, social media comments and more. All these events are indicative of the customer's loyalty to a certain business.
 
-**Loyalty** is usually defined as the strength of the relationship between a customer and a certain business. A higher degree of loyality results in more purchase transactions and at a higher frequency.
+**Loyalty** is usually defined as the strength of the relationship between a customer and a certain business. A higher degree of loyalty results in more purchase orders at a higher frequency.
+
+Customer loyalty is an important parameter e.g. for marketing, for almost any kind of business. Loyalty, however, can not be directly observer and measured. It is an internal customer state, that must be inferred adn predicted from customer engagement events.
+
+> Customer Loyalty is a highly valuable insight derived from customer engagement data using **Predictive Analytics**.
 
 ### Association Rule (AR) Mining
 
