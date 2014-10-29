@@ -1,53 +1,79 @@
-![Dr.Krusche & Partner PartG](https://raw.github.com/skrusche63/spark-elastic/master/images/dr-kruscheundpartner.png)
+![Predictiveworks.](https://raw.githubusercontent.com/skrusche63/spark-insight/master/images/predictiveworks.png)
 
-## Real-time Insights with Apache Spark
+**Predictiveworks.** is an open ensemble of predictive engines and has been made to cover a wide range of today's analytics 
+requirements. **Predictiveworks.**  brings the power of predictive analytics to Elasticsearch.
 
-### Customer Loyalty 
+For easy and flexible integration every engine has a REST API and is accessible as an Akka enabled remote service.
 
-The customer's engagement with a business is reflected by a wide range of events, such as e-commerce orders (or transactions), service calls, social media comments and more. All these events are indicative of the customer's loyalty to a certain business.
+## [Predictiveworks. REST API](https://github.com/skrusche63/spark-rest)
 
-Loyalty is usually defined as the strength of the relationship between a customer and a certain business. A higher degree of loyalty results in more purchase orders at a higher frequency.
+The REST API for **Predictiveworks.** provides a one-stop strategy to the different predictive engines via a common interface:
 
-Customer loyalty is an important parameter for almost any kind of business, and can e.g. be used to measure the effectiveness of marketing campaigns. Following a campaign, the loyalty curve can be analyzed for a certain period of time to see if there is any significant impact on customers loyalty.
+### [Reactive Association Analysis Engine](https://github.com/skrusche63/spark-arules)
 
-Loyalty, however, can not be directly observer and measured. It is an internal customer state, that must be inferred adn predicted from customer engagement events.
+![Association Analysis Engine Overview](https://raw.githubusercontent.com/skrusche63/spark-insight/master/images/association-rules-overview.png)
 
-> Customer Loyalty is a highly valuable business insight derived from customer engagement data using **Predictive Analytics**.
-
-We suggest to predict a sequence of (hidden) customer loyalty states from a sequence of observed customer engagement data by using a [Hidden Markov Model](http://en.wikipedia.org/wiki/Hidden_Markov_model). Identifying customers with a downward loyalty curve with such analysis can directly trigger proactive actions to resurrect the relationships of these customers.
-
-The [Spark-Piwik](https://github.com/skrusche63/spark-piwik) performs customer loyalty analysis with customer engagement data extracted from [Piwik Analytics](http://piwik.org).
+The Association Analysis Engine is one of the nine members of the open ensemble and is built to support association rule mining with a new and redefined 
+mining algorithm. The approach overcomes the well-known "threshold problem" and makes it a lot easier to directly leverage the resulting content and product rules.
 
 
-### Purchase Horizon
+### [Reactive Context-Aware Analysis Engine](https://github.com/skrusche63/spark-fm)
+
+![Factorization Machines Overview](https://raw.githubusercontent.com/skrusche63/spark-insight/master/images/factorization-machines-overview.png)
+
+The Context-Aware Analysis Engine is one of the nine members of the open ensemble and has a strong focus on context-sensitive data and interactions in 
+multi-dimensional datasets. It is the key to the next-generation of personalized predictions and customer relationships.
+  
+
+### [Reactive Decision Analysis Engine](https://github.com/skrusche63/spark-decision)
+
+![Decision Analysis Engine Overview](https://raw.githubusercontent.com/skrusche63/spark-insight/master/images/decision-analysis-overview.png)
+
+The Decision Analysis Engine is one of the nine members of the open ensemble and is built to predict the best decisions among multiple courses of action 
+and identify their decisive factors. The machine learning algorithm is unexcelled in accuracy among current algorithms and is based on ensemble learning 
+and powerful randomization strategies. 
 
 
-### Purchase Rules
+### [Reactive Intent Recognition Engine](https://github.com/skrusche63/spark-intent)
+
+![Intent Recognition Engine Overview](https://raw.githubusercontent.com/skrusche63/spark-insight/master/images/intent-recognition-overview.png)
+
+The Intent Recognition Engine is one of the nine members of the open ensemble and is built to uncover the intents of human behavior and reach
+the ultimate customer understanding. It is based on an approved scientific algorithms to unveil and leverage hidden data from human behavior. 
 
 
-### Association Rule (AR) Mining
+### [Reactive Outlier Detection Engine](https://github.com/skrusche63/spark-outlier)
 
-Scala and Apache Spark based implementation of most recent Top-K Association Rule Algorithms as proposed by [Philippe-Fournier Viger](http://www.philippe-fournier-viger.com/). Top-K Association Rule Mining overcomes one of the major problems in traditional Association Rule approaches, i.e. tuning the *minimum support* parameter.
+![Outlier Detection Engine Overview](https://raw.githubusercontent.com/skrusche63/spark-insight/master/images/outlier-detection-overview.png)
 
-Top-K Association Rule Mining therefore is an appropriate candidate for applying this technique to real-time data streams. Read [more](http://skrusche63.github.io/spark-arules).
+The Outlier Detection Engine is one of the nine members of the open ensemble and is built to find anomalies in large-scale datasets and human behavior 
+for advanced risk reduction. 
 
-### Context-Aware Recommendations (CARs)
 
-Read [here](http://skrusche63.github.io/spark-fm)
+### [Reactive Series Analysis Engine](https://github.com/skrusche63/spark-fsm)
 
-### Frequent Sequence Mining (FSM)
+![Series Analysis Engine Overview](https://raw.githubusercontent.com/skrusche63/spark-insight/master/images/series-analysis-overview.png)
 
-Read [here](http://skrusche63.github.io/spark-fsm)
+The Series Analysis Engine is one of the nine members of the open ensemble and is built to support sequential pattern mining with a new and redefined 
+mining algorithm. The approach overcomes the well-known "threshold problem" and makes it a lot easier to directly leverage the resulting patterns and rules.
 
-### Hidden Markov Model (HMM)
 
-Read [here](http://skrusche63.github.io/scala-hmm)
+### [Reactive Similarity Analysis Engine](https://github.com/skrusche63/spark-cluster)
 
-### Natural Language Processing (NLP)
+![Similarity Analysis Engine Overview](https://raw.githubusercontent.com/skrusche63/spark-insight/master/images/similarity-analysis-overview.png)
 
-Read [here](http://skrusche63.github.io/akka-nlp)
+The Similarity Analysis Engine is one of the nine members of the open ensemble and is built to find relevant similarities in dynamic activity sequences and 
+identify customers by their journeys. It is based on the new S2MP algorithm to find similarities for sequential patterns in large scale datasets. 
 
-## Elasticsearch Insights
 
-Read [here](http://skrusche63.github.io/spark-elastic)
+### [Reactive Text Analysis Engine](https://github.com/skrusche63/spark-text)
+
+![Text Analysis Engine Overview](https://raw.githubusercontent.com/skrusche63/spark-insight/master/images/text-analysis-overview.png)
+
+The Text Analysis Engine is one of the nine members of the open ensemble and is built to support language-agnostic semantic concept detection and prediction 
+for semantic targeting.
+
+## [Predictiveworks. Elasticsearch Plug-in](https://github.com/skrusche63/elastic-insight)
+
+![Elasticinsight. Overview](https://raw.githubusercontent.com/skrusche63/spark-insight/master/images/elasticinsight_640.png)
 
