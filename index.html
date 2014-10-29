@@ -4,11 +4,11 @@
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Spark-insight : Real-time Insights with Apache Spark">
+    <meta name="description" content="Open Predictive Analytics : Business Insights with Spark and Elasticsearch">
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-    <title>Spark-insight</title>
+    <title>Open Predictive Analytics</title>
   </head>
 
   <body>
@@ -18,8 +18,8 @@
         <header class="inner">
           <a id="forkme_banner" href="https://github.com/skrusche63/spark-insight">View on GitHub</a>
 
-          <h1 id="project_title">Spark-insight</h1>
-          <h2 id="project_tagline">Real-time Insights with Apache Spark</h2>
+          <h1 id="project_title">Open Predictive Analytics</h1>
+          <h2 id="project_tagline">Business Insights with Spark and Elasticsearch</h2>
 
             <section id="downloads">
               <a class="zip_download_link" href="https://github.com/skrusche63/spark-insight/zipball/master">Download this project as a .zip file</a>
@@ -31,44 +31,107 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        <p><img src="https://raw.github.com/skrusche63/spark-elastic/master/images/dr-kruscheundpartner.png" alt="Dr.Krusche &amp; Partner PartG"></p>
+        <p><img src="https://raw.githubusercontent.com/skrusche63/spark-insight/master/images/predictiveworks.png" alt="Predictiveworks."></p>
+
+<p><strong>Predictiveworks.</strong> is an open ensemble of predictive engines and has been made to cover a wide range of today's analytics 
+requirements. <strong>Predictiveworks.</strong>  brings the power of predictive analytics to Elasticsearch.</p>
+
+<p>For easy and flexible integration every engine has a REST API and is accessible as an Akka enabled remote service.</p>
 
 <h2>
-<a name="real-time-insights-with-apache-spark" class="anchor" href="#real-time-insights-with-apache-spark"><span class="octicon octicon-link"></span></a>Real-time Insights with Apache Spark</h2>
+<a name="predictiveworks-rest-api" class="anchor" href="#predictiveworks-rest-api"><span class="octicon octicon-link"></span></a><a href="https://github.com/skrusche63/spark-rest">Predictiveworks. REST API</a>
+</h2>
+
+<p>The REST API for <strong>Predictiveworks.</strong> provides a one-stop strategy to the different predictive engines via a common interface:</p>
 
 <h3>
-<a name="association-rule-ar-mining" class="anchor" href="#association-rule-ar-mining"><span class="octicon octicon-link"></span></a>Association Rule (AR) Mining</h3>
+<a name="reactive-association-analysis-engine" class="anchor" href="#reactive-association-analysis-engine"><span class="octicon octicon-link"></span></a><a href="https://github.com/skrusche63/spark-arules">Reactive Association Analysis Engine</a>
+</h3>
 
-<p>Scala and Apache Spark based implementation of most recent Top-K Association Rule Algorithms as proposed by <a href="http://www.philippe-fournier-viger.com/">Philippe-Fournier Viger</a>. Top-K Association Rule Mining overcomes one of the major problems in traditional Association Rule approaches, i.e. tuning the <em>minimum support</em> parameter.</p>
+<p><img src="https://raw.githubusercontent.com/skrusche63/spark-insight/master/images/association-rules-overview.png" alt="Association Analysis Engine Overview"></p>
 
-<p>Top-K Association Rule Mining therefore is an appropriate candidate for applying this technique to real-time data streams. Read <a href="http://skrusche63.github.io/spark-arules">more</a>.</p>
-
-<h3>
-<a name="context-aware-recommendations-cars" class="anchor" href="#context-aware-recommendations-cars"><span class="octicon octicon-link"></span></a>Context-Aware Recommendations (CARs)</h3>
-
-<p>Read <a href="http://skrusche63.github.io/spark-fm">here</a></p>
+<p>The Association Analysis Engine is one of the nine members of the open ensemble and is built to support association rule mining with a new and redefined 
+mining algorithm. The approach overcomes the well-known "threshold problem" and makes it a lot easier to directly leverage the resulting content and product rules.</p>
 
 <h3>
-<a name="frequent-sequence-mining-fsm" class="anchor" href="#frequent-sequence-mining-fsm"><span class="octicon octicon-link"></span></a>Frequent Sequence Mining (FSM)</h3>
+<a name="reactive-context-aware-analysis-engine" class="anchor" href="#reactive-context-aware-analysis-engine"><span class="octicon octicon-link"></span></a><a href="https://github.com/skrusche63/spark-fm">Reactive Context-Aware Analysis Engine</a>
+</h3>
 
-<p>Read <a href="http://skrusche63.github.io/spark-fsm">here</a></p>
+<p><img src="https://raw.githubusercontent.com/skrusche63/spark-insight/master/images/factorization-machines-overview.png" alt="Factorization Machines Overview"></p>
+
+<p>The Context-Aware Analysis Engine is one of the nine members of the open ensemble and has a strong focus on context-sensitive data and interactions in 
+multi-dimensional datasets. It is the key to the next-generation of personalized predictions and customer relationships.</p>
 
 <h3>
-<a name="natural-language-processing-nlp" class="anchor" href="#natural-language-processing-nlp"><span class="octicon octicon-link"></span></a>Natural Language Processing (NLP)</h3>
+<a name="reactive-decision-analysis-engine" class="anchor" href="#reactive-decision-analysis-engine"><span class="octicon octicon-link"></span></a><a href="https://github.com/skrusche63/spark-decision">Reactive Decision Analysis Engine</a>
+</h3>
 
-<p>Read <a href="http://skrusche63.github.io/akka-nlp">here</a></p>
+<p><img src="https://raw.githubusercontent.com/skrusche63/spark-insight/master/images/decision-analysis-overview.png" alt="Decision Analysis Engine Overview"></p>
+
+<p>The Decision Analysis Engine is one of the nine members of the open ensemble and is built to predict the best decisions among multiple courses of action 
+and identify their decisive factors. The machine learning algorithm is unexcelled in accuracy among current algorithms and is based on ensemble learning 
+and powerful randomization strategies. </p>
+
+<h3>
+<a name="reactive-intent-recognition-engine" class="anchor" href="#reactive-intent-recognition-engine"><span class="octicon octicon-link"></span></a><a href="https://github.com/skrusche63/spark-intent">Reactive Intent Recognition Engine</a>
+</h3>
+
+<p><img src="https://raw.githubusercontent.com/skrusche63/spark-insight/master/images/intent-recognition-overview.png" alt="Intent Recognition Engine Overview"></p>
+
+<p>The Intent Recognition Engine is one of the nine members of the open ensemble and is built to uncover the intents of human behavior and reach
+the ultimate customer understanding. It is based on an approved scientific algorithms to unveil and leverage hidden data from human behavior. </p>
+
+<h3>
+<a name="reactive-outlier-detection-engine" class="anchor" href="#reactive-outlier-detection-engine"><span class="octicon octicon-link"></span></a><a href="https://github.com/skrusche63/spark-outlier">Reactive Outlier Detection Engine</a>
+</h3>
+
+<p><img src="https://raw.githubusercontent.com/skrusche63/spark-insight/master/images/outlier-detection-overview.png" alt="Outlier Detection Engine Overview"></p>
+
+<p>The Outlier Detection Engine is one of the nine members of the open ensemble and is built to find anomalies in large-scale datasets and human behavior 
+for advanced risk reduction. </p>
+
+<h3>
+<a name="reactive-series-analysis-engine" class="anchor" href="#reactive-series-analysis-engine"><span class="octicon octicon-link"></span></a><a href="https://github.com/skrusche63/spark-fsm">Reactive Series Analysis Engine</a>
+</h3>
+
+<p><img src="https://raw.githubusercontent.com/skrusche63/spark-insight/master/images/series-analysis-overview.png" alt="Series Analysis Engine Overview"></p>
+
+<p>The Series Analysis Engine is one of the nine members of the open ensemble and is built to support sequential pattern mining with a new and redefined 
+mining algorithm. The approach overcomes the well-known "threshold problem" and makes it a lot easier to directly leverage the resulting patterns and rules.</p>
+
+<h3>
+<a name="reactive-similarity-analysis-engine" class="anchor" href="#reactive-similarity-analysis-engine"><span class="octicon octicon-link"></span></a><a href="https://github.com/skrusche63/spark-cluster">Reactive Similarity Analysis Engine</a>
+</h3>
+
+<p><img src="https://raw.githubusercontent.com/skrusche63/spark-insight/master/images/similarity-analysis-overview.png" alt="Similarity Analysis Engine Overview"></p>
+
+<p>The Similarity Analysis Engine is one of the nine members of the open ensemble and is built to find relevant similarities in dynamic activity sequences and 
+identify customers by their journeys. It is based on the new S2MP algorithm to find similarities for sequential patterns in large scale datasets. </p>
+
+<h3>
+<a name="reactive-text-analysis-engine" class="anchor" href="#reactive-text-analysis-engine"><span class="octicon octicon-link"></span></a><a href="https://github.com/skrusche63/spark-text">Reactive Text Analysis Engine</a>
+</h3>
+
+<p><img src="https://raw.githubusercontent.com/skrusche63/spark-insight/master/images/text-analysis-overview.png" alt="Text Analysis Engine Overview"></p>
+
+<p>The Text Analysis Engine is one of the nine members of the open ensemble and is built to support language-agnostic semantic concept detection and prediction 
+for semantic targeting.</p>
 
 <h2>
-<a name="elasticsearch-insights" class="anchor" href="#elasticsearch-insights"><span class="octicon octicon-link"></span></a>Elasticsearch Insights</h2>
+<a name="predictiveworks-elasticsearch-plug-in" class="anchor" href="#predictiveworks-elasticsearch-plug-in"><span class="octicon octicon-link"></span></a><a href="https://github.com/skrusche63/elastic-insight">Predictiveworks. Elasticsearch Plug-in</a>
+</h2>
 
-<p>Read <a href="http://skrusche63.github.io/spark-elastic">here</a></p>
+<p>The Elasticsearch plug-in for <strong>Predictiveworks.</strong> provides a seamless integration of today's most relevant predictive analytics for online publishers and retailers 
+with Elasticsearch.</p>
+
+<p><img src="https://raw.githubusercontent.com/skrusche63/spark-insight/master/images/elasticinsight_640.png" alt="Elasticinsight. Overview"></p>
       </section>
     </div>
 
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-        <p class="copyright">Spark-insight maintained by <a href="https://github.com/skrusche63">skrusche63</a></p>
+        <p class="copyright">Open Predictive Analytics maintained by <a href="https://github.com/skrusche63">skrusche63</a></p>
         <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
