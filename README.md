@@ -75,5 +75,8 @@ for semantic targeting.
 
 ## [Predictiveworks. Elasticsearch Plug-in](https://github.com/skrusche63/elastic-insight)
 
+The Elasticsearch plug-in for **Predictiveworks.** provides a seamless integration of today's most relevant predictive analytics for online publishers and retailers 
+with Elasticsearch.
+
 ![Elasticinsight. Overview](https://raw.githubusercontent.com/skrusche63/spark-insight/master/images/elasticinsight_640.png)
 
